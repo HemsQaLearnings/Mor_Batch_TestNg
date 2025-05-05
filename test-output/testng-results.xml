@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[SignUp_Test]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-05T09:13:46 IST" name="Suite" finished-at="2025-05-05T09:13:46 IST" duration-ms="78">
+    <groups>
+      <group name="Regression">
+        <method signature="TestCase1_Test.signUP_Test()[pri:0, instance:Build_BO1_LoginPage.TestCase1_Test@54c5a2ff]" name="signUP_Test" class="Build_BO1_LoginPage.TestCase1_Test"/>
+        <method signature="TestCase2_Test.Hompage_Test()[pri:2, instance:Build_BO3_Hompage.TestCase2_Test@8f2ef19]" name="Hompage_Test" class="Build_BO3_Hompage.TestCase2_Test"/>
+        <method signature="TestCase2_Test.Logout_Test()[pri:3, instance:Build_BO3_Hompage.TestCase2_Test@8f2ef19]" name="Logout_Test" class="Build_BO3_Hompage.TestCase2_Test"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="TestCase1_Test.signUP_Test()[pri:0, instance:Build_BO1_LoginPage.TestCase1_Test@54c5a2ff]" name="signUP_Test" class="Build_BO1_LoginPage.TestCase1_Test"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-05-05T09:13:46 IST" name="Test" finished-at="2025-05-05T09:13:46 IST" duration-ms="78">
+      <class name="Build_BO3_Hompage.TestCase2_Test">
+        <test-method signature="Hompage_Test()[pri:2, instance:Build_BO3_Hompage.TestCase2_Test@8f2ef19]" started-at="2025-05-05T09:13:46 IST" name="Hompage_Test" finished-at="2025-05-05T09:13:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hompage_Test -->
+        <test-method signature="Logout_Test()[pri:3, instance:Build_BO3_Hompage.TestCase2_Test@8f2ef19]" started-at="2025-05-05T09:13:46 IST" name="Logout_Test" finished-at="2025-05-05T09:13:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Test -->
+      </class> <!-- Build_BO3_Hompage.TestCase2_Test -->
+      <class name="Build_BO1_LoginPage.TestCase1_Test">
+        <test-method signature="signUP_Test()[pri:0, instance:Build_BO1_LoginPage.TestCase1_Test@54c5a2ff]" started-at="2025-05-05T09:13:46 IST" name="signUP_Test" finished-at="2025-05-05T09:13:46 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SignUp_Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signUP_Test -->
+      </class> <!-- Build_BO1_LoginPage.TestCase1_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
